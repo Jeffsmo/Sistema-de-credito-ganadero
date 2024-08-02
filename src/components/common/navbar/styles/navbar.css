@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: absolute ;
+    font-size: 14px;
+    width: 98%;
+    padding-left: 0;
+    padding-right: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: white;
+    margin: 0;
+    top:0;
+    left: 0;
+    
+    z-index: 2;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 24px;
+}
+
+.font-semibold{
+    font-family:'Bungee', sans-serif ;
+    font-size: larger;
+}
+
+.nav-logo{
+    padding: 12px 10px 8px 20px;
+    color: black;
+
+}
+
+@media (max-width:800px){
+    nav{
+        padding-right: 900px;
+    }
+}
