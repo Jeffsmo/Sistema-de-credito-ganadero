@@ -1,12 +1,14 @@
 import React from "react";
 
+import './styles/styles.css'
+
 
 function Home(){
 
     return(
     <>
         
-        <h1>HOME</h1>
+        <h1 className="title">HOME</h1>
 
     </>
     )

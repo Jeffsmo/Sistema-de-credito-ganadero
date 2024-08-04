@@ -1,3 +1,19 @@
 .hidden{
     display: none;
 }
+
+html{
+    margin:0;
+    padding:0;
+  }
+  
+  div#root{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    margin:0;
+  
+  
+  }
