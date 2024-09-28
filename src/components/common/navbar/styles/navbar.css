@@ -11,14 +11,14 @@ nav {
     align-items: center;
     position: absolute;
     font-size: 14px;
-    width: 80%;
+    width: 90%;
     height: 86px;
     padding: 0 62px;
     background-color: white;
-    margin: 18px;
+    margin: 52px 20px 20px 20px;
     top: 0;
     z-index: 2;
-    border-radius:500px;
+    border-radius:24px;
 }
 
 .nav-content {
@@ -50,9 +50,65 @@ nav {
     color: black;
 }
 
+.login-nav-button{
+    background-color: var(--tomato);
+    color: var(--main-white);
+    border-radius: 40px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.login-nav-button:hover{
+    opacity: 0.8;
+}
+.nav-route{
+    color: black;
+}
+
+.profile-menu {
+    position: relative;
+}
+
+.profile-icon {
+    width: 80px; /* Tamaño del icono, ajústalo según lo necesario */
+    height: 80px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 80px; /* Ajusta esta posición si es necesario */
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 1000;
+    height: 100px;
+    width: 200px;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.hidden {
+    display: none;
+}
+
+
 @media (max-width: 800px) {
     .navbar-wrapper {
-        width: 100%;
+        width: 84%;
         padding: 0;
         position: fixed;
         display: flex;
@@ -80,5 +136,8 @@ nav {
 
     .navbar-container {
         justify-content: center;
+    }
+    .nav-content{
+        padding: 0;
     }
 }

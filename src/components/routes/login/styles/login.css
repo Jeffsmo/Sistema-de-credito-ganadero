@@ -6,6 +6,14 @@
     width: 100vw;
 }
 
+.login-back-home{
+    color: #ddd;
+    position: fixed;
+    margin: 20px;
+    top: 0;
+    left: 0;
+}
+
 h1{
     color:#242424;
 }
@@ -73,5 +81,9 @@ h1{
 
     .login-container-container{
         padding: 10%;
+    }
+
+    .login-back-home{
+        display: none;
     }
 }
