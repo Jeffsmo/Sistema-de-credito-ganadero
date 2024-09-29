@@ -1,0 +1,24 @@
+.p-wrapper {
+    width: 100vw;
+    margin: auto;
+
+  }
+  
+  .p-content {
+    /*text-align: center;*/
+    background-color: white;
+    border-radius: 80px;
+    margin-top: 200px;
+    padding: 20px;
+  }
+  
+
+  @media (max-width: 800px) {
+    .p-wrapper{
+      width: 84%;
+      margin: 4px;
+    }
+    .p-content{
+      margin-top: 100px;
+    }
+  }

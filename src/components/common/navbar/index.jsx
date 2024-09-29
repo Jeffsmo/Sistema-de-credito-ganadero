@@ -86,6 +86,7 @@ function Navbar() {
                                 {isDropdownOpen && (
                                     <div className="dropdown-menu">
                                         <NavLink to="/profile" className="dropdown-item">Perfil</NavLink>
+                                        <NavLink to=""/>
                                         <NavLink to="/logout" className="dropdown-item">Cerrar Sesión</NavLink>
                                     </div>
                                 )}

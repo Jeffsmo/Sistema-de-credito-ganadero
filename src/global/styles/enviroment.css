@@ -7,7 +7,7 @@
   font-variation-settings:
     "wdth" 100;
     background-color:var(--background-black);
-    background-image: url('./assets/img/beb91fe5-5192-4a7a-b2d5-29514c5aeac0.jpeg');
+    
     background-size:cover;
     background-position-x:center;
     background-position-y: -300px;
@@ -16,7 +16,7 @@
     --tomato:#ff674d;
     --air-superiority-blue:#347cc5;
     --indigo-dye:#284b63;
-    --pursian-blue:#153243;
+    --pursian-blue:#122440;
     padding: 0px;
     margin: 0px;
   
@@ -36,7 +36,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color:var(--pursian-blue);
+      background-color:var(--main-white);
       z-index: -9;
     }
   }
